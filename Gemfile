@@ -15,9 +15,6 @@ gem 'simple_form'
 gem "jquery-rails", "< 3.0.0"
 gem 'flatui-rails'
 
-# NerRelic statistics ( Free Heroku add-on )
-gem 'newrelic_rpm'
-
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 
@@ -28,6 +25,9 @@ end
 group :production do
   gem 'pg'
   gem 'unicorn'
+  
+	# NerRelic statistics ( Free Heroku add-on )
+	gem 'newrelic_rpm'
 end
 
 # Gems used only for assets and not required
