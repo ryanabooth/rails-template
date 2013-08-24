@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RailsTemplate</title>
+  <title>Rails Template</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<% if notice != nil %>
+		<span class="notice"><%= notice %></span>
+	<% end %>
+	<% if alert != nil %>
+		<span class="alert"><%= alert %></span>
+	<% end %>
+	<%= yield %>
 
 </body>
 </html>

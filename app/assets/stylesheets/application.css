@@ -10,4 +10,7 @@
  *
  *= require_self
  *= require_tree .
+ *
+ * Added
+ *= require flat-ui
  */
