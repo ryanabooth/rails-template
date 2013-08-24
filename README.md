@@ -9,14 +9,14 @@ A mockup starter that is set with basic Rails, Bootstrap and Flat UI.
 
 Go to the repository and run the following commands:
 
-bundle install  
-rake db:migrate
+				bundle install  
+				rake db:migrate
 
 ### Try it out
 
 In Terminal (if everything has worked right), start your webserver:
 
-rails server
+				rails server
 
 Then go to [http://localhost:3000/](http://localhost:3000/) in any web browser.
 
