@@ -5,6 +5,11 @@ A mockup starter that is set with basic Rails, Bootstrap and Flat UI.
 
 ## First steps
 
+### Fork this template
+
+Anyone can fork and use this as a starting point.  
+More info on forking here: [https://help.github.com/articles/fork-a-repo](https://help.github.com/articles/fork-a-repo)
+
 ### Get on Terminal
 
 Go to the repository and run the following commands:
